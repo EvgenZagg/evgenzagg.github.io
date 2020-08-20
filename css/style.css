@@ -697,7 +697,6 @@ label,
 
 .projects-article-photo {
     display: block;
-    width: 100%;
 }
 
 .projects-article-txt-wrp {
@@ -1453,12 +1452,13 @@ label,
     .header {
         width: 100%;
         min-height: 140px;
-        padding: 0 20px;
+        padding: 0;
         box-sizing: border-box;
         background-color: #484642;
         background-image: url(../img/header-background.jpg);
         background-repeat: no-repeat;
         background-size: 100% auto;
+        background-size: cover;
     }
 
     .header-wrp {
@@ -1484,13 +1484,12 @@ label,
         background-repeat: no-repeat;
         background-position: 0 0;
         position: absolute;
-        top: 50px;
-        right: 0;
+        top: 60px;
+        right: 30px;
     }
 
     .header-menu-list {
         visibility: hidden;
-        margin: 0 auto;
         flex-direction: column;
     }
 
