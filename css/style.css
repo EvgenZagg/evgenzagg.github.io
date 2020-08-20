@@ -1619,7 +1619,11 @@ label,
     }
 
     .clients-logo {
-        margin: 0;
+        margin: 25px 0 0 0;
+    }
+    
+    .clients-logo:nth-child(4) {
+        margin: 25px 0 0 0;
     }
 
     .footer-main-block {
