@@ -1615,6 +1615,7 @@ label,
     .clients {
         justify-content: space-around;
         background-size: cover;
+        padding: 15px 0;
     }
 
     .clients-logo {
